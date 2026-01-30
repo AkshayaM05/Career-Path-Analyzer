@@ -108,6 +108,9 @@ NLP Processing (Python)
      ↓
 Career Domain Prediction & Roadmap
 
+aws_s3_upload.py → Handles secure resume upload to AWS S3
+
+
 🔐 Security & Scalability
 
 Secure cloud storage using AWS S3
