@@ -1,0 +1,18 @@
+streamlit
+spacy
+pdfminer.six
+boto3
+
+Why these?
+
+streamlit → UI
+
+spacy → NLP processing
+
+pdfminer.six → PDF resume text extraction
+
+boto3 → AWS S3 integration (resume storage)
+
+After installing this, don’t forget 👇
+
+python -m spacy download en_core_web_sm
