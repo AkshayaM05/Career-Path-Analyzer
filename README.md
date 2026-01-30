@@ -58,6 +58,7 @@ career-bot-chatbot/
 
 clone the Repository:
 git clone https://github.com/AkshayaM05/Carrer-Path-Analyzer.git
+Live Demo: 
 cd career-bot-chatbot
 setup:
   steps:
@@ -131,4 +132,10 @@ Job recommendation APIs
 
 Admin dashboard
 
+<img width="1920" height="1200" alt="Screenshot (365)" src="https://github.com/user-attachments/assets/a6409487-3075-4bd8-8ebd-e23d5e5e0fb4" />
 
+<img width="1920" height="1200" alt="Screenshot (366)" src="https://github.com/user-attachments/assets/c2a32553-c5a2-4a00-8739-79261983f2a1" />
+
+<img width="1920" height="1200" alt="Screenshot (367)" src="https://github.com/user-attachments/assets/f90db5c0-d8ea-4d0a-b68c-0448f1583dd8" />
+
+<img width="1920" height="1200" alt="Screenshot (368)" src="https://github.com/user-attachments/assets/caa2d093-2648-48b4-8daf-87852ecb8f8d" />
