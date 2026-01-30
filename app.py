@@ -1,9 +1,14 @@
 import streamlit as st
 from pdfminer.high_level import extract_text
 import spacy
+import subprocess
+import sys
 
-# Load spaCy model
-nlp = spacy.load("en_core_web_sm")
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
+    nlp = spacy.load("en_core_web_sm")
 
 # Keywords for domain classification
 domain_keywords = {
@@ -153,3 +158,4 @@ elif option == "\U0001F4A1 Enter Area of Interest":
                 st.markdown(f"- {step}")
         else:
             st.warning("\u274C Sorry, we couldn't recognize that domain. Try keywords like: Web, Data, Cloud, DevOps, AI, etc.")
+
